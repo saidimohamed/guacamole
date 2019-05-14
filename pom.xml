@@ -6,7 +6,7 @@
 	<artifactId>devops-day</artifactId>
 	<packaging>jar</packaging>
 	<version>0.1-SNAPSHOT</version>
-	<name>HelloWorld ENSMA Application</name>
+	<name></name>
 
 	<properties>
 		<jaxrs.version>2.1</jaxrs.version>
@@ -57,10 +57,17 @@
 			<artifactId>javax.ws.rs-api</artifactId>
 			<version>${jaxrs.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
 			<artifactId>jersey-container-grizzly2-http</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.3.1</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>

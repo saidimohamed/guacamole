@@ -1,0 +1,8 @@
+/.classpath
+/.project
+/.settings/org.eclipse.jdt.core.prefs
+/.settings/org.eclipse.m2e.core.prefs
+/README.md
+/target/classes/fr/gfi/devops/HelloLauncher.class
+/target/classes/fr/gfi/devops/HelloResource.class
+/target/test-classes/sample/HelloResourcesTests.class
